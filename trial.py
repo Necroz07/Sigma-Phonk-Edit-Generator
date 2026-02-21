@@ -12,14 +12,11 @@ def smilescore(lms):
     left_corner = 61
     right_corner = 291
     upperlip = 13
-    lowerlip = 14
     forehead = 10
     chin = 152
 
-    w = distance(lms[left_corner], lms[right_corner])
-    h = distance(lms[upperlip], lms[lowerlip])
-
     avgcornery = (lms[left_corner].y + lms[right_corner].y) / 2
+
     lift = lms[upperlip].y - avgcornery   # bigger when corners rise
 
     face_height = abs(lms[chin].y - lms[forehead].y)
