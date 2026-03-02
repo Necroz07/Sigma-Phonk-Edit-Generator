@@ -58,7 +58,7 @@ The project combines computer vision, real-time video processing, and audio trig
 
 ## Purpose
 
-The purpose of this hackathon was to learn a new library and see how I can implement real-time video libraries creatively and have them react to human input.
+The purpose of this project was to learn a new library and see how I can implement real-time video libraries creatively and have them react to human input.
 
 - Real-time computer vision pipelines
 - Expression-based interactive systems
@@ -80,9 +80,11 @@ The purpose of this hackathon was to learn a new library and see how I can imple
    ```
 
 3. Install Dependencies
-   ```python -m pip install -r requirements.txt```
+   ```
+   python -m pip install -r requirements.txt
+   ```
 
-4. Run the application
+5. Run the application
    ```
    python "main.py"
    ```
